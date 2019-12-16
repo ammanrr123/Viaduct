@@ -24,7 +24,7 @@ import Lib.Utility4;
 public class ViaductDrop {
 	
 	//declaring the public static variable
-	 static String sFileName ="C:\\Users\\ammanrr.CORP\\eclipse-workspace\\ViaductDroppinglist.xlsx" ;
+	 static String sFileName ="C:\\Users\\ammanrr\\eclipse-workspace\\ViaductDroppinglist.xlsx" ;
 	 static String sSheetName ="Sheet1";
 	 static String sRunMode;
 	 //static int count=0;
@@ -34,7 +34,7 @@ public static void main(String[] args) throws Exception {
 {    
 	
 	//browser properties
-	System.setProperty("webdriver.chrome.driver","C://Users//ammanrr.CORP//Downloads//chromedriver_win32//chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","C://Users//ammanrr//Downloads//chromedriver_win32//chromedriver.exe");
 	
 	
 	WebDriver driver = new ChromeDriver(); 
@@ -44,7 +44,7 @@ public static void main(String[] args) throws Exception {
 
 	//loading the excel file
 	try {
-	Utility4.setExcelFile("C:\\Users\\ammanrr.CORP\\eclipse-workspace\\ViaductDroppinglist.xlsx", "Sheet1");
+	Utility4.setExcelFile("C:\\Users\\ammanrr\\eclipse-workspace\\ViaductDroppinglist.xlsx", "Sheet1");
 	}
 	catch (Exception e){System.out.println("invalid excel file");
 	}
@@ -173,13 +173,13 @@ public static void main(String[] args) throws Exception {
 	wait3.until(ExpectedConditions.alertIsPresent());
 	promptAlert1.accept();
 	Thread.sleep(8000);
-	Utility4.setExcelFile("C:\\Users\\ammanrr.CORP\\eclipse-workspace\\ViaductDroppinglist.xlsx", str);
+	Utility4.setExcelFile("C:\\Users\\ammanrr\\eclipse-workspace\\ViaductDroppinglist.xlsx", str);
 	Utility4.setCellData("Dropped", Arow, 1);
 	
 	}
 	
 	catch(Exception e) {System.out.println("alert2 is not working");
-	Utility4.setExcelFile("C:\\Users\\ammanrr.CORP\\eclipse-workspace\\ViaductDroppinglist.xlsx", str);
+	Utility4.setExcelFile("C:\\Users\\ammanrr\\eclipse-workspace\\ViaductDroppinglist.xlsx", str);
 	Utility4.setCellData("Failed", Arow, 1);
 	count++;
 	
@@ -200,11 +200,11 @@ public static void main(String[] args) throws Exception {
 	//Knowing the account numbers for that communication instance 
 
 	if(count>=1) {
-		Utility4.setExcelFile("C:\\Users\\ammanrr.CORP\\eclipse-workspace\\ViaductDroppinglist.xlsx", "Sheet1");
+		Utility4.setExcelFile("C:\\Users\\ammanrr\\eclipse-workspace\\ViaductDroppinglist.xlsx", "Sheet1");
 		Utility4.setCellData("Fail", row, 5);
 		
 	}else {
-		Utility4.setExcelFile("C:\\Users\\ammanrr.CORP\\eclipse-workspace\\ViaductDroppinglist.xlsx", "Sheet1");
+		Utility4.setExcelFile("C:\\Users\\ammanrr\\eclipse-workspace\\ViaductDroppinglist.xlsx", "Sheet1");
 		Utility4.setCellData("Pass", row, 5);
 	}
 		}
@@ -327,11 +327,11 @@ public static void main(String[] args) throws Exception {
 		//Knowing the count of test accounts of the communications
 		
 		if(count>=1) {
-			Utility4.setExcelFile("C:\\Users\\ammanrr.CORP\\eclipse-workspace\\ViaductDroppinglist.xlsx", "Sheet1");
+			Utility4.setExcelFile("C:\\Users\\ammanrr\\eclipse-workspace\\ViaductDroppinglist.xlsx", "Sheet1");
 			Utility4.setCellData("Fail", row, 5);
 			
 		}else {
-			Utility4.setExcelFile("C:\\Users\\ammanrr.CORP\\eclipse-workspace\\ViaductDroppinglist.xlsx", "Sheet1");
+			Utility4.setExcelFile("C:\\Users\\ammanrr\\eclipse-workspace\\ViaductDroppinglist.xlsx", "Sheet1");
 			Utility4.setCellData("Pass", row, 5);
 		}
 		

@@ -10,25 +10,25 @@ public class app2 {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		PDFUtil pdfUtil = new PDFUtil();
-		//int a=pdfUtil.getPageCount("C:\\Users\\ammanrr.CORP\\Downloads\\LU0102737144_DE_CH.pdf");
+		//int a=pdfUtil.getPageCount("C:\\Users\\ammanrr\\Downloads\\LU0102737144_DE_CH.pdf");
 		//System.out.println(a);
-		//String text=pdfUtil.getText("C:\\Users\\ammanrr.CORP\\Downloads\\LU0102737144_DE_CH.pdf");
+		//String text=pdfUtil.getText("C:\\Users\\ammanrr\\Downloads\\LU0102737144_DE_CH.pdf");
 		//System.out.println(text);
-		//pdfUtil.setImageDestinationPath("C:\\Users\\ammanrr.CORP\\Downloads");
-		//pdfUtil.extractImages("C:\\Users\\ammanrr.CORP\\Downloads\\V40.pdf");
+		//pdfUtil.setImageDestinationPath("C:\\Users\\ammanrr\\Downloads");
+		//pdfUtil.extractImages("C:\\Users\\ammanrr\\Downloads\\V40.pdf");
 		
-		//pdfUtil.setImageDestinationPath("C:\\Users\\ammanrr.CORP\\eclipse-workspace");
+		//pdfUtil.setImageDestinationPath("C:\\Users\\ammanrr\\eclipse-workspace");
 		
-		//pdfUtil.savePdfAsImage("C:\\Users\\ammanrr.CORP\\Downloads\\V40.pdf");
+		//pdfUtil.savePdfAsImage("C:\\Users\\ammanrr\\Downloads\\V40.pdf");
 		
-		String file1="C:\\Users\\ammanrr.CORP\\Downloads\\V40.pdf";
-		String file2="C:\\Users\\ammanrr.CORP\\Downloads\\VP40.pdf";
+		String file1="C:\\Users\\ammanrr\\Downloads\\V40.pdf";
+		String file2="C:\\Users\\ammanrr\\Downloads\\VP40.pdf";
 		
 		// compares the pdf documents &amp; returns a boolean
 		// true if both files have same content. false otherwise.
 		// Default is CompareMode.TEXT_MODE
 		pdfUtil.setCompareMode(CompareMode.VISUAL_MODE);
-		pdfUtil.setImageDestinationPath("C:\\Users\\ammanrr.CORP\\Downloads\\VK");
+		pdfUtil.setImageDestinationPath("C:\\Users\\ammanrr\\Downloads\\VK");
 		pdfUtil.savePdfAsImage("testdiff");
 		pdfUtil.compare(file1, file2);
 		 
@@ -40,7 +40,7 @@ public class app2 {
 		 
 		//if you need to store the result
 		pdfUtil.highlightPdfDifference(true);
-		pdfUtil.setImageDestinationPath("C:\\Users\\ammanrr.CORP\\Downloads");
+		pdfUtil.setImageDestinationPath("C:\\Users\\ammanrr\\Downloads");
 		pdfUtil.compare(file1, file2);
 	}
 

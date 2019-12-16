@@ -19,7 +19,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 public class Utility {
-public static final String Path="C:\\Users\\ammanrr.CORP\\eclipse-workspace\\UploadCommentary2p.xlsx";
+public static final String Path="C:\\Users\\ammanrr\\eclipse-workspace\\UploadCommentary2p.xlsx";
 private static XSSFSheet ExcelWSheet;
 private static XSSFWorkbook ExcelWBook;
 private static XSSFCell Cell;

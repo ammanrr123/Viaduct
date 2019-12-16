@@ -16,7 +16,7 @@ public class app1 {
 		
 		public static void main(String[] args) throws Exception {
 			
-		      System.setProperty("webdriver.ie.driver", "C://Users//ammanrr.CORP//Downloads//IEDriverServer.exe");
+		      System.setProperty("webdriver.ie.driver", "C://Users//ammanrr//Downloads//IEDriverServer.exe");
 		        WebDriver driver = new InternetExplorerDriver();
 		
 		        driver.manage().window().maximize();

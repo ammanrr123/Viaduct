@@ -13,7 +13,7 @@ public class Extract {
  PDDocument pd;
  BufferedWriter wr;
  try {
-		Utility.setExcelFile("C://Users//ammanrr.CORP//eclipse-workspace//Pdfextract.xlsx", "Sheet1");
+		Utility.setExcelFile("C://Users//ammanrr//eclipse-workspace//Pdfextract.xlsx", "Sheet1");
 	} catch (Exception e) {
 		System.out.println("Given Updated user input file is not availble in specified location");
 	}

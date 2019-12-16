@@ -15,13 +15,13 @@ import org.openqa.selenium.support.ui.Select;
 import Lib.Utility7;
 
 public class ForceRoute {
-  static String sFileName ="C:\\Users\\ammanrr.CORP\\eclipse-workspace\\DeleteCommunicationsV1-Copy.xlsx" ;
+  static String sFileName ="C:\\Users\\ammanrr\\eclipse-workspace\\DeleteCommunicationsV1-Copy.xlsx" ;
   static String sSheetName ="Sheet1";
   static String Type;
   public static void main(String[] args) throws Exception {
 	  // launching the browser
 	  try {
-		  System.setProperty("webdriver.chrome.driver", "C://Users//ammanrr.CORP//Downloads//chromedriver.exe");
+		  System.setProperty("webdriver.chrome.driver", "C://Users//ammanrr//Downloads//chromedriver.exe");
 	  } 
 	  catch (Exception e)
 	  {
@@ -34,7 +34,7 @@ public class ForceRoute {
 	 
 	 // searching for user data file
 	 try {
-		 Utility7.setExcelFile("C:\\Users\\ammanrr.CORP\\eclipse-workspace\\DeleteCommunicationsV1-Copy.xlsx", "Sheet1");
+		 Utility7.setExcelFile("C:\\Users\\ammanrr\\eclipse-workspace\\DeleteCommunicationsV1-Copy.xlsx", "Sheet1");
 	 } 
 	 catch (Exception e) {
 		 System.out.println("Given Updated user input file is not availble in specified location");
@@ -2286,10 +2286,10 @@ else if(Type.equals("Type4")) {
 
 		/*{
 			
-			 String sFileName1 ="C:\\Users\\ammanrr.CORP\\eclipse-workspace\\ViaductDroppinglist.xlsx" ;
+			 String sFileName1 ="C:\\Users\\ammanrr\\eclipse-workspace\\ViaductDroppinglist.xlsx" ;
 			 String sSheetName1 ="Sheet1";
 			 String sRunMode1 = null;
-			//System.setProperty("webdriver.chrome.driver","C://Users//ammanrr.CORP//Downloads//chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver","C://Users//ammanrr//Downloads//chromedriver.exe");
 			
 			
 			//WebDriver driver = new ChromeDriver(); 
@@ -2452,13 +2452,13 @@ else if(Type.equals("Type4")) {
 			wait3.until(ExpectedConditions.alertIsPresent());
 			promptAlert1.accept();
 			Thread.sleep(8000);
-			Utility7.setExcelFile("C:\\Users\\ammanrr.CORP\\eclipse-workspace\\ViaductDroppinglist.xlsx", str);
+			Utility7.setExcelFile("C:\\Users\\ammanrr\\eclipse-workspace\\ViaductDroppinglist.xlsx", str);
 			Utility7.setCellData("Dropped", Arow, 1);
 			
 			}
 			
 			catch(Exception e) {System.out.println("alert2 is not working");
-			Utility7.setExcelFile("C:\\Users\\ammanrr.CORP\\eclipse-workspace\\ViaductDroppinglist.xlsx", str);
+			Utility7.setExcelFile("C:\\Users\\ammanrr\\eclipse-workspace\\ViaductDroppinglist.xlsx", str);
 			Utility7.setCellData("Failed", Arow, 1);
 			count++;
 			
@@ -2480,7 +2480,7 @@ else if(Type.equals("Type4")) {
 
 			if(count>=1) {
 				try {
-					Utility7.setExcelFile("C:\\Users\\ammanrr.CORP\\eclipse-workspace\\ViaductDroppinglist.xlsx", "Sheet1");
+					Utility7.setExcelFile("C:\\Users\\ammanrr\\eclipse-workspace\\ViaductDroppinglist.xlsx", "Sheet1");
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -2492,7 +2492,7 @@ else if(Type.equals("Type4")) {
 				
 			}else {
 				try {
-					Utility7.setExcelFile("C:\\Users\\ammanrr.CORP\\eclipse-workspace\\ViaductDroppinglist.xlsx", "Sheet1");
+					Utility7.setExcelFile("C:\\Users\\ammanrr\\eclipse-workspace\\ViaductDroppinglist.xlsx", "Sheet1");
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -2623,7 +2623,7 @@ else if(Type.equals("Type4")) {
 				
 				if(count>=1) {
 					try {
-						Utility7.setExcelFile("C:\\Users\\ammanrr.CORP\\eclipse-workspace\\ViaductDroppinglist.xlsx", "Sheet1");
+						Utility7.setExcelFile("C:\\Users\\ammanrr\\eclipse-workspace\\ViaductDroppinglist.xlsx", "Sheet1");
 					} catch (Exception e) {
 						e.printStackTrace();
 					}
@@ -2635,7 +2635,7 @@ else if(Type.equals("Type4")) {
 					
 				}else {
 					try {
-						Utility7.setExcelFile("C:\\Users\\ammanrr.CORP\\eclipse-workspace\\ViaductDroppinglist.xlsx", "Sheet1");
+						Utility7.setExcelFile("C:\\Users\\ammanrr\\eclipse-workspace\\ViaductDroppinglist.xlsx", "Sheet1");
 					} catch (Exception e) {
 						e.printStackTrace();
 					}

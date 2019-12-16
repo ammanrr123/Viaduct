@@ -19,8 +19,8 @@ import java.util.List;
             String sCurrentLine;
             List<String> list1 = new ArrayList<String>();
             List<String> list2 = new ArrayList<String>();
-            br1 = new BufferedReader(new FileReader("C:\\Users\\ammanrr.CORP\\eclipse-workspace\\Extracted_UAT.txt"));
-            br2 = new BufferedReader(new FileReader("C:\\Users\\ammanrr.CORP\\eclipse-workspace\\Extracted_Prod.txt"));
+            br1 = new BufferedReader(new FileReader("C:\\Users\\ammanrr\\eclipse-workspace\\Extracted_UAT.txt"));
+            br2 = new BufferedReader(new FileReader("C:\\Users\\ammanrr\\eclipse-workspace\\Extracted_Prod.txt"));
             while ((sCurrentLine = br1.readLine()) != null) {
                 list1.add(sCurrentLine);
             }

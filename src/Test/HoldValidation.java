@@ -14,13 +14,13 @@ import org.openqa.selenium.support.ui.Select;
 import Lib.Utility8;
 
 public class HoldValidation {
-	static String sFileName ="C:\\Users\\ammanrr.CORP\\eclipse-workspace\\DeleteCommunicationsV1-Copy.xlsx" ;
+	static String sFileName ="C:\\Users\\ammanrr\\eclipse-workspace\\DeleteCommunicationsV1-Copy.xlsx" ;
 	  static String sSheetName ="Sheet1";
 	  static String Type;
 	  public static void main(String[] args) throws Exception {
 		  // launching the browser
 		  try {
-			  System.setProperty("webdriver.chrome.driver", "C://Users//ammanrr.CORP//Downloads//chromedriver.exe");
+			  System.setProperty("webdriver.chrome.driver", "C://Users//ammanrr//Downloads//chromedriver.exe");
 		  } 
 		  catch (Exception e)
 		  {
@@ -33,7 +33,7 @@ public class HoldValidation {
 		 
 		 // searching for user data file
 		 try {
-			 Utility8.setExcelFile("C:\\Users\\ammanrr.CORP\\eclipse-workspace\\DeleteCommunicationsV1-Copy.xlsx", "Sheet1");
+			 Utility8.setExcelFile("C:\\Users\\ammanrr\\eclipse-workspace\\DeleteCommunicationsV1-Copy.xlsx", "Sheet1");
 		 } 
 		 catch (Exception e) {
 			 System.out.println("Given Updated user input file is not availble in specified location");

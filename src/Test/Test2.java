@@ -19,9 +19,9 @@ public class Test2 {
 public static void main(String[] args) throws Exception {
 {               
 	
-	// System.setProperty("webdriver.ie.driver", "C://Users//ammanrr.CORP//Downloads//IEDriverServer.exe");
+	// System.setProperty("webdriver.ie.driver", "C://Users//ammanrr//Downloads//IEDriverServer.exe");
    //  WebDriver driver = new InternetExplorerDriver();
-System.setProperty("webdriver.chrome.driver","C://Users//ammanrr.CORP//Downloads//chromedriver.exe");
+System.setProperty("webdriver.chrome.driver","C://Users//ammanrr//Downloads//chromedriver.exe");
 WebDriver driver = new ChromeDriver(); 
 driver.manage().window().maximize();
 driver.manage().deleteAllCookies();

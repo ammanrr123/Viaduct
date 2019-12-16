@@ -9,12 +9,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import Lib.Utility5;
 
 public class WebCrap {
-	static String sFileName ="C:\\Users\\ammanrr.CORP\\eclipse-workspace\\WebCrap1.xlsx" ;
+	static String sFileName ="C:\\Users\\ammanrr\\eclipse-workspace\\WebCrap1.xlsx" ;
 	   static String sSheetName ="Sheet1";
 	public static void main(String[] args) {
 		
 		try {
-			System.setProperty("webdriver.chrome.driver","C://Users//ammanrr.CORP//Downloads//chromedriver.exe");}
+			System.setProperty("webdriver.chrome.driver","C://Users//ammanrr//Downloads//chromedriver.exe");}
 			catch(Exception e){
 				System.out.println("unable to find the chrome driver");
 			}
@@ -25,7 +25,7 @@ public class WebCrap {
 			
 			//searching for user data file
 	        try {
-				Utility5.setExcelFile("C://Users//ammanrr.CORP//eclipse-workspace//WebCrap.xlsx", "Sheet1");
+				Utility5.setExcelFile("C://Users//ammanrr//eclipse-workspace//WebCrap.xlsx", "Sheet1");
 			} catch (Exception e) {
 				System.out.println("Given Updated user input file is not availble in specified location");
 			}

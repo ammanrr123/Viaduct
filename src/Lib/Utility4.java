@@ -15,7 +15,7 @@ import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Row.MissingCellPolicy;
 import org.apache.poi.ss.usermodel.Sheet;
 public class Utility4 {
-public static final String Path="C:\\Users\\ammanrr.CORP\\eclipse-workspace\\ViaductDroppinglist.xlsx";
+public static final String Path="C:\\Users\\ammanrr\\eclipse-workspace\\ViaductDroppinglist.xlsx";
 private static XSSFSheet ExcelWSheet;
 private static XSSFWorkbook ExcelWBook;
 private static XSSFCell Cell;

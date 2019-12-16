@@ -16,10 +16,10 @@ public class DesktopAutomate {
 
 		Screen screen=new Screen();
 		
-		Pattern pattern=new Pattern("C:\\Users\\ammanrr.CORP\\Downloads\\sikili\\image2.jPG");
+		Pattern pattern=new Pattern("C:\\Users\\ammanrr\\Downloads\\sikili\\image2.jPG");
 		//screen.click(pattern);
 		
-		 System.setProperty("webdriver.ie.driver", "C://Users//ammanrr.CORP//Downloads//IEDriverServer.exe");
+		 System.setProperty("webdriver.ie.driver", "C://Users//ammanrr//Downloads//IEDriverServer.exe");
 	        WebDriver driver = new InternetExplorerDriver();
 	
 	        driver.manage().window().maximize();
